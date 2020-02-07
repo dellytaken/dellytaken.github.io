@@ -9,8 +9,13 @@ function draw() {
   strokeWeight(5);
   stroke(0,255,0);
   fill(0,0,255);
-  rect(mouseX,100,200,200);
+  rect(mouseX,mouseY,200,200);
   fill(255,0,255);
   noStroke();
   ellipse(250,300,100,100);
+}
+
+function mousePressed()
+{
+	background(220);
 }
